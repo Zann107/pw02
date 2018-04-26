@@ -7,6 +7,7 @@
 body{
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
+	background-color: #FDF8F2;
 }
 .grid{
 	height: 100%;
@@ -45,7 +46,7 @@ a:hover{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 300px;
+	width: 100%;
 	flex: 1.25
 	/* Effet visuel*/
 }
@@ -59,7 +60,7 @@ a:hover{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 300px;
+	width: 100%;
 	flex: 1.25;
 }
 img{
@@ -67,12 +68,14 @@ img{
 	height: 100%;
 	margin:20px 0px;
 	max-width: 100%;
-	transition: all 1s;
+	transition: .3s ease-in-out;
+	opacity: 1;
+	
 }
 
 
 img:hover{
-	max-width: 45%;
+	opacity: .5;
 }
 .lien{
 	display: flex;
